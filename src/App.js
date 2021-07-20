@@ -7,6 +7,7 @@ import Header from './components/header/header-component';
 import SignInSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import {auth,createUserProfileDocument} from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions'; 
+
 import './App.css';
 
 
