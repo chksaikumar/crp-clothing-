@@ -5,7 +5,7 @@
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 35px 0 35px;
-  font-size: 15px;
+  font-size: 81%;
   background-color: black;
   color: white;
   text-transform: uppercase;
@@ -19,8 +19,8 @@
   &:hover {
     background-color: white;
     color: rgb(32, 30, 30);
-    border: 1px solid black;
-    
+    border: 1px solid rgb(12, 12, 12);
+    font-size: 60%;
   }
 
 &.google-sign-in {
