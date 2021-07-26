@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+ hats:{
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  sneakers:{
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  jackets:{
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
@@ -150,9 +150,10 @@ const SHOP_DATA = [
         imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
         price: 185
       }
+      
     ]
   },
-  {
+  womens:{
     id: 4,
     title: 'Womens',
     routeName: 'womens',
@@ -201,7 +202,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  mens:{
     id: 5,
     title: 'Mens',
     routeName: 'mens',
@@ -241,9 +242,21 @@ const SHOP_DATA = [
         name: 'Burgundy T-shirt',
         imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
         price: 25
+      },
+      {
+        id: 36,
+        name: 'Rain jacket',
+        imageUrl: 'https://i.imgur.com/OepvH0V.jpeg',
+        price: 185
+      },
+      {
+        id: 37,
+        name: 'water proof jacket',
+        imageUrl: 'https://i.imgur.com/HujIBDm.jpeg',
+        price: 185
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
